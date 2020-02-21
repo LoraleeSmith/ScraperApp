@@ -7,7 +7,7 @@ var exphbs = require("express-handlebars");
 var axios = require("axios");
 
 // Requiring Note and Article models
-var Note = require("./models/Note.js");
+var Note = require("./models/note");
 var Article = require("./models/articles");
 
 // Scraping tools
